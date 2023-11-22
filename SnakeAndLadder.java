@@ -31,6 +31,10 @@ public class SnakeAndLadder {
              current_position = current_position+0;
             //System.out.println("No Play");
         }
+        if(current_position >100) {
+            current_position -=roll;
+
+        }
         count++;
     }
 
