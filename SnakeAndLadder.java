@@ -35,6 +35,7 @@ public class SnakeAndLadder {
             current_position -=roll;
 
         }
+        System.out.println("Position now :" + current_position);
         count++;
     }
 
